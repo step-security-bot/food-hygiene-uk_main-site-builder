@@ -36,3 +36,8 @@ updates:
       cronjob: "0 9 * * *"
       timezone: "Europe/London"
     open-pull-requests-limit: 500
+
+  - package-ecosystem: docker
+    directory: /.devcontainer
+    schedule:
+      interval: daily
